@@ -1,0 +1,1067 @@
+body {
+  background: rgba(231, 229, 229, 0.623);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box {
+  position: relative;
+  height: 250px;
+  width: 250px;
+  background: none;
+  display: inline-block;
+  margin: auto;
+  /* margin-top: 8%; */
+  border: 1px solid black;
+}
+/* red */
+.planetRed {
+  position: absolute;
+  border-radius: 50%;
+  background: #dd4837;
+  height: 55%;
+  width: 48%;
+  top: 20%;
+  left: 30%;
+}
+.planetCopyRed {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #dd4837;
+  border-radius: 50%;
+  z-index: 1;
+}
+.whiteCircleRed {
+  position: absolute;
+  background: white;
+  opacity: 0.1;
+  height: 80%;
+  width: 80%;
+  border-radius: 50%;
+  right: 2%;
+  top: 4%;
+  z-index: 3;
+}
+.circle1Red {
+  position: absolute;
+  height: 18%;
+  width: 18%;
+  border-radius: 50%;
+  background: #cb382b;
+  top: 38%;
+  left: 35%;
+  z-index: 2;
+}
+.circle2Red {
+  position: absolute;
+  height: 10%;
+  width: 10%;
+  border-radius: 50%;
+  background: #cb382b;
+  top: 20%;
+  left: 45%;
+  z-index: 2;
+}
+.circle3Red {
+  position: absolute;
+  height: 13%;
+  width: 13%;
+  border-radius: 50%;
+  background: #cb382b;
+  top: 20%;
+  left: 65%;
+  z-index: 2;
+}
+.circle4Red {
+  position: absolute;
+  height: 11%;
+  width: 11%;
+  border-radius: 50%;
+  background: #cb382b;
+  top: 60%;
+  left: 65%;
+  z-index: 2;
+}
+.circle5Red {
+  position: absolute;
+  height: 11%;
+  width: 11%;
+  border-radius: 50%;
+  background: #cb382b;
+  top: 35%;
+  left: 6%;
+  z-index: 2;
+}
+.circle6Red {
+  position: absolute;
+  height: 9%;
+  width: 9%;
+  border-radius: 50%;
+  background: #cb382b;
+  top: 75%;
+  left: 15%;
+  z-index: 2;
+}
+.circle7Red {
+  position: absolute;
+  height: 11%;
+  width: 11%;
+  border-radius: 50%;
+  background: #cb382b;
+  top: 85%;
+  left: 40%;
+  z-index: 2;
+}
+.tube1Red {
+  position: absolute;
+  height: 10%;
+  width: 25%;
+  top: 30%;
+  left: 15%;
+  background: #dd4843;
+  border-radius: 50px;
+  z-index: -1;
+}
+.tube2Red {
+  position: absolute;
+  height: 10%;
+  width: 20%;
+  top: 43%;
+  left: 20%;
+  background: #e57c39;
+  border-radius: 50px;
+  z-index: -1;
+}
+.tube3Red {
+  position: absolute;
+  height: 10%;
+  width: 50%;
+  top: 55%;
+  left: 10%;
+  background: #eebf45;
+  border-radius: 50px;
+  z-index: -1;
+}
+.tube4Red {
+  position: absolute;
+  height: 10%;
+  width: 40%;
+  top: 29%;
+  right: 10%;
+  background: #eebf45;
+  border-radius: 50px;
+  z-index: -1;
+}
+.tube5Red {
+  position: absolute;
+  height: 10%;
+  width: 50%;
+  top: 45%;
+  right: 10%;
+  background: #e57c39;
+  border-radius: 50px;
+  z-index: -1;
+}
+.tube6Red {
+  position: absolute;
+  height: 10%;
+  width: 35%;
+  top: 58%;
+  right: 15%;
+  background: #dd4b37;
+  border-radius: 50px;
+  z-index: -1;
+}
+.flagRed {
+  position: absolute;
+  background: #dd4b37;
+  top: 2%;
+  width: 10%;
+  height: 10%;
+  left: 52%;
+}
+.poleRed {
+    position: absolute;
+    height: 200%;
+    width: 25%;
+    background: #5C4126;
+    bottom: -200%;
+    left: 0%;
+}
+/* orange */
+.planetOrange {
+  position: absolute;
+  border-radius: 50%;
+  background: #FFA52C;
+  height: 55%;
+  width: 48%;
+  top: 20%;
+  left: 30%;
+}
+.planetCopyOrange {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #FFA52C;
+  border-radius: 50%;
+  z-index: 1;
+}
+.whiteCircleOrange {
+  position: absolute;
+  background: white;
+  opacity: 0.1;
+  height: 80%;
+  width: 80%;
+  border-radius: 50%;
+  right: 2%;
+  top: 4%;
+  z-index: 3;
+}
+.circle1Orange {
+  position: absolute;
+  height: 18%;
+  width: 18%;
+  border-radius: 50%;
+  background: #cb382b;
+  top: 38%;
+  left: 35%;
+  z-index: 2;
+}
+.circle2Orange {
+  position: absolute;
+  height: 10%;
+  width: 10%;
+  border-radius: 50%;
+  background: #cb382b;
+  top: 20%;
+  left: 45%;
+  z-index: 2;
+}
+.circle3Orange {
+  position: absolute;
+  height: 13%;
+  width: 13%;
+  border-radius: 50%;
+  background: #cb382b;
+  top: 20%;
+  left: 65%;
+  z-index: 2;
+}
+.circle4Orange {
+  position: absolute;
+  height: 11%;
+  width: 11%;
+  border-radius: 50%;
+  background: #cb382b;
+  top: 60%;
+  left: 65%;
+  z-index: 2;
+}
+.circle5Orange {
+  position: absolute;
+  height: 11%;
+  width: 11%;
+  border-radius: 50%;
+  background: #cb382b;
+  top: 35%;
+  left: 6%;
+  z-index: 2;
+}
+.circle6Orange {
+  position: absolute;
+  height: 9%;
+  width: 9%;
+  border-radius: 50%;
+  background: #cb382b;
+  top: 75%;
+  left: 15%;
+  z-index: 2;
+}
+.circle7Orange {
+  position: absolute;
+  height: 11%;
+  width: 11%;
+  border-radius: 50%;
+  background: #cb382b;
+  top: 85%;
+  left: 40%;
+  z-index: 2;
+}
+.tube1Orange {
+  position: absolute;
+  height: 10%;
+  width: 25%;
+  top: 30%;
+  left: 15%;
+  background: #dd4843;
+  border-radius: 50px;
+  z-index: -1;
+}
+.tube2Orange {
+  position: absolute;
+  height: 10%;
+  width: 20%;
+  top: 43%;
+  left: 20%;
+  background: #e57c39;
+  border-radius: 50px;
+  z-index: -1;
+}
+.tube3Orange {
+  position: absolute;
+  height: 10%;
+  width: 50%;
+  top: 55%;
+  left: 10%;
+  background: #eebf45;
+  border-radius: 50px;
+  z-index: -1;
+}
+.tube4Orange {
+  position: absolute;
+  height: 10%;
+  width: 40%;
+  top: 29%;
+  right: 10%;
+  background: #eebf45;
+  border-radius: 50px;
+  z-index: -1;
+}
+.tube5Orange {
+  position: absolute;
+  height: 10%;
+  width: 50%;
+  top: 45%;
+  right: 10%;
+  background: #e57c39;
+  border-radius: 50px;
+  z-index: -1;
+}
+.tube6Orange {
+  position: absolute;
+  height: 10%;
+  width: 35%;
+  top: 58%;
+  right: 15%;
+  background: #dd4b37;
+  border-radius: 50px;
+  z-index: -1;
+}
+.flagOrange {
+  position: absolute;
+  background: #dd4b37;
+  top: 2%;
+  width: 10%;
+  height: 10%;
+  left: 52%;
+}
+.poleOrange {
+    position: absolute;
+    height: 200%;
+    width: 25%;
+    background: #5C4126;
+    bottom: -200%;
+    left: 0%;
+}
+/* yellow */
+.planetYellow {
+  position: absolute;
+  border-radius: 50%;
+  background: #FFFF41;
+  height: 55%;
+  width: 48%;
+  top: 20%;
+  left: 30%;
+}
+.planetCopyYellow {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #FFFF41;
+  border-radius: 50%;
+  z-index: 1;
+}
+/* opacity is different */
+.whiteCircleYellow {
+  position: absolute;
+  background: white;
+  opacity: 0.4;
+  height: 80%;
+  width: 80%;
+  border-radius: 50%;
+  right: 2%;
+  top: 4%;
+  z-index: 2;
+}
+.circle1Yellow {
+  position: absolute;
+  height: 18%;
+  width: 18%;
+  border-radius: 50%;
+  background: #cb382b;
+  top: 38%;
+  left: 35%;
+  z-index: 2;
+}
+.circle2Yellow {
+  position: absolute;
+  height: 10%;
+  width: 10%;
+  border-radius: 50%;
+  background: #cb382b;
+  top: 20%;
+  left: 45%;
+  z-index: 2;
+}
+.circle3Yellow {
+  position: absolute;
+  height: 13%;
+  width: 13%;
+  border-radius: 50%;
+  background: #cb382b;
+  top: 20%;
+  left: 65%;
+  z-index: 2;
+}
+.circle4Yellow {
+  position: absolute;
+  height: 11%;
+  width: 11%;
+  border-radius: 50%;
+  background: #cb382b;
+  top: 60%;
+  left: 65%;
+  z-index: 2;
+}
+.circle5Yellow {
+  position: absolute;
+  height: 11%;
+  width: 11%;
+  border-radius: 50%;
+  background: #cb382b;
+  top: 35%;
+  left: 6%;
+  z-index: 2;
+}
+.circle6Yellow {
+  position: absolute;
+  height: 9%;
+  width: 9%;
+  border-radius: 50%;
+  background: #cb382b;
+  top: 75%;
+  left: 15%;
+  z-index: 2;
+}
+.circle7Yellow {
+  position: absolute;
+  height: 11%;
+  width: 11%;
+  border-radius: 50%;
+  background: #cb382b;
+  top: 85%;
+  left: 40%;
+  z-index: 2;
+}
+.tube1Yellow {
+  position: absolute;
+  height: 10%;
+  width: 25%;
+  top: 30%;
+  left: 15%;
+  background: #dd4843;
+  border-radius: 50px;
+  z-index: -1;
+}
+.tube2Yellow {
+  position: absolute;
+  height: 10%;
+  width: 20%;
+  top: 43%;
+  left: 20%;
+  background: #e57c39;
+  border-radius: 50px;
+  z-index: -1;
+}
+.tube3Yellow {
+  position: absolute;
+  height: 10%;
+  width: 50%;
+  top: 55%;
+  left: 10%;
+  background: #eebf45;
+  border-radius: 50px;
+  z-index: -1;
+}
+.tube4Yellow {
+  position: absolute;
+  height: 10%;
+  width: 40%;
+  top: 29%;
+  right: 10%;
+  background: #eebf45;
+  border-radius: 50px;
+  z-index: -1;
+}
+.tube5Yellow {
+  position: absolute;
+  height: 10%;
+  width: 50%;
+  top: 45%;
+  right: 10%;
+  background: #e57c39;
+  border-radius: 50px;
+  z-index: -1;
+}
+.tube6Yellow {
+  position: absolute;
+  height: 10%;
+  width: 35%;
+  top: 58%;
+  right: 15%;
+  background: #dd4b37;
+  border-radius: 50px;
+  z-index: -1;
+}
+.flagYellow {
+  position: absolute;
+  background: #dd4b37;
+  top: 2%;
+  width: 10%;
+  height: 10%;
+  left: 52%;
+}
+.poleYellow {
+    position: absolute;
+    height: 200%;
+    width: 25%;
+    background: #5C4126;
+    bottom: -200%;
+    left: 0%;
+}
+/* green */
+.planetGreen {
+  position: absolute;
+  border-radius: 50%;
+  background: #008018;
+  height: 55%;
+  width: 48%;
+  top: 20%;
+  left: 30%;
+}
+.planetCopyGreen {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #008018;
+  border-radius: 50%;
+  z-index: 1;
+}
+.whiteCircleGreen {
+  position: absolute;
+  background: white;
+  opacity: 0.1;
+  height: 80%;
+  width: 80%;
+  border-radius: 50%;
+  right: 2%;
+  top: 4%;
+  z-index: 3;
+}
+.circle1Green {
+  position: absolute;
+  height: 18%;
+  width: 18%;
+  border-radius: 50%;
+  background: #cb382b;
+  top: 38%;
+  left: 35%;
+  z-index: 2;
+}
+.circle2Green {
+  position: absolute;
+  height: 10%;
+  width: 10%;
+  border-radius: 50%;
+  background: #cb382b;
+  top: 20%;
+  left: 45%;
+  z-index: 2;
+}
+.circle3Green {
+  position: absolute;
+  height: 13%;
+  width: 13%;
+  border-radius: 50%;
+  background: #cb382b;
+  top: 20%;
+  left: 65%;
+  z-index: 2;
+}
+.circle4Green {
+  position: absolute;
+  height: 11%;
+  width: 11%;
+  border-radius: 50%;
+  background: #cb382b;
+  top: 60%;
+  left: 65%;
+  z-index: 2;
+}
+.circle5Green {
+  position: absolute;
+  height: 11%;
+  width: 11%;
+  border-radius: 50%;
+  background: #cb382b;
+  top: 35%;
+  left: 6%;
+  z-index: 2;
+}
+.circle6Green {
+  position: absolute;
+  height: 9%;
+  width: 9%;
+  border-radius: 50%;
+  background: #cb382b;
+  top: 75%;
+  left: 15%;
+  z-index: 2;
+}
+.circle7Green {
+  position: absolute;
+  height: 11%;
+  width: 11%;
+  border-radius: 50%;
+  background: #cb382b;
+  top: 85%;
+  left: 40%;
+  z-index: 2;
+}
+.tube1Green {
+  position: absolute;
+  height: 10%;
+  width: 25%;
+  top: 30%;
+  left: 15%;
+  background: #dd4843;
+  border-radius: 50px;
+  z-index: -1;
+}
+.tube2Green {
+  position: absolute;
+  height: 10%;
+  width: 20%;
+  top: 43%;
+  left: 20%;
+  background: #e57c39;
+  border-radius: 50px;
+  z-index: -1;
+}
+.tube3Green {
+  position: absolute;
+  height: 10%;
+  width: 50%;
+  top: 55%;
+  left: 10%;
+  background: #eebf45;
+  border-radius: 50px;
+  z-index: -1;
+}
+.tube4Green {
+  position: absolute;
+  height: 10%;
+  width: 40%;
+  top: 29%;
+  right: 10%;
+  background: #eebf45;
+  border-radius: 50px;
+  z-index: -1;
+}
+.tube5Green {
+  position: absolute;
+  height: 10%;
+  width: 50%;
+  top: 45%;
+  right: 10%;
+  background: #e57c39;
+  border-radius: 50px;
+  z-index: -1;
+}
+.tube6Green {
+  position: absolute;
+  height: 10%;
+  width: 35%;
+  top: 58%;
+  right: 15%;
+  background: #dd4b37;
+  border-radius: 50px;
+  z-index: -1;
+}
+.flagGreen {
+  position: absolute;
+  background: #dd4b37;
+  top: 2%;
+  width: 10%;
+  height: 10%;
+  left: 52%;
+}
+.poleGreen {
+    position: absolute;
+    height: 200%;
+    width: 25%;
+    background: #5C4126;
+    bottom: -200%;
+    left: 0%;
+}
+/* blue */
+.planetBlue {
+  position: absolute;
+  border-radius: 50%;
+  background: #0000F9;
+  height: 55%;
+  width: 48%;
+  top: 20%;
+  left: 30%;
+}
+.planetCopyBlue {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #0000F9;
+  border-radius: 50%;
+  z-index: 1;
+}
+.whiteCircleBlue {
+  position: absolute;
+  background: white;
+  opacity: 0.1;
+  height: 80%;
+  width: 80%;
+  border-radius: 50%;
+  right: 2%;
+  top: 4%;
+  z-index: 3;
+}
+.circle1Blue {
+  position: absolute;
+  height: 18%;
+  width: 18%;
+  border-radius: 50%;
+  background: #cb382b;
+  top: 38%;
+  left: 35%;
+  z-index: 2;
+}
+.circle2Blue {
+  position: absolute;
+  height: 10%;
+  width: 10%;
+  border-radius: 50%;
+  background: #cb382b;
+  top: 20%;
+  left: 45%;
+  z-index: 2;
+}
+.circle3Blue {
+  position: absolute;
+  height: 13%;
+  width: 13%;
+  border-radius: 50%;
+  background: #cb382b;
+  top: 20%;
+  left: 65%;
+  z-index: 2;
+}
+.circle4Blue {
+  position: absolute;
+  height: 11%;
+  width: 11%;
+  border-radius: 50%;
+  background: #cb382b;
+  top: 60%;
+  left: 65%;
+  z-index: 2;
+}
+.circle5Blue {
+  position: absolute;
+  height: 11%;
+  width: 11%;
+  border-radius: 50%;
+  background: #cb382b;
+  top: 35%;
+  left: 6%;
+  z-index: 2;
+}
+.circle6Blue {
+  position: absolute;
+  height: 9%;
+  width: 9%;
+  border-radius: 50%;
+  background: #cb382b;
+  top: 75%;
+  left: 15%;
+  z-index: 2;
+}
+.circle7Blue {
+  position: absolute;
+  height: 11%;
+  width: 11%;
+  border-radius: 50%;
+  background: #cb382b;
+  top: 85%;
+  left: 40%;
+  z-index: 2;
+}
+.tube1Blue {
+  position: absolute;
+  height: 10%;
+  width: 25%;
+  top: 30%;
+  left: 15%;
+  background: #dd4843;
+  border-radius: 50px;
+  z-index: -1;
+}
+.tube2Blue {
+  position: absolute;
+  height: 10%;
+  width: 20%;
+  top: 43%;
+  left: 20%;
+  background: #e57c39;
+  border-radius: 50px;
+  z-index: -1;
+}
+.tube3Blue {
+  position: absolute;
+  height: 10%;
+  width: 50%;
+  top: 55%;
+  left: 10%;
+  background: #eebf45;
+  border-radius: 50px;
+  z-index: -1;
+}
+.tube4Blue {
+  position: absolute;
+  height: 10%;
+  width: 40%;
+  top: 29%;
+  right: 10%;
+  background: #eebf45;
+  border-radius: 50px;
+  z-index: -1;
+}
+.tube5Blue {
+  position: absolute;
+  height: 10%;
+  width: 50%;
+  top: 45%;
+  right: 10%;
+  background: #e57c39;
+  border-radius: 50px;
+  z-index: -1;
+}
+.tube6Blue {
+  position: absolute;
+  height: 10%;
+  width: 35%;
+  top: 58%;
+  right: 15%;
+  background: #dd4b37;
+  border-radius: 50px;
+  z-index: -1;
+}
+.flagBlue {
+  position: absolute;
+  background: #dd4b37;
+  top: 2%;
+  width: 10%;
+  height: 10%;
+  left: 52%;
+}
+.poleBlue {
+    position: absolute;
+    height: 200%;
+    width: 25%;
+    background: #5C4126;
+    bottom: -200%;
+    left: 0%;
+}
+/* violet */
+.planetViolet {
+  position: absolute;
+  border-radius: 50%;
+  background: #86007D;
+  height: 55%;
+  width: 48%;
+  top: 20%;
+  left: 30%;
+}
+.planetCopyViolet {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #86007D;
+  border-radius: 50%;
+  z-index: 1;
+}
+.whiteCircleViolet {
+  position: absolute;
+  background: white;
+  opacity: 0.1;
+  height: 80%;
+  width: 80%;
+  border-radius: 50%;
+  right: 2%;
+  top: 4%;
+  z-index: 3;
+}
+.circle1Violet {
+  position: absolute;
+  height: 18%;
+  width: 18%;
+  border-radius: 50%;
+  background: #cb382b;
+  top: 38%;
+  left: 35%;
+  z-index: 2;
+}
+.circle2Violet {
+  position: absolute;
+  height: 10%;
+  width: 10%;
+  border-radius: 50%;
+  background: #cb382b;
+  top: 20%;
+  left: 45%;
+  z-index: 2;
+}
+.circle3Violet {
+  position: absolute;
+  height: 13%;
+  width: 13%;
+  border-radius: 50%;
+  background: #cb382b;
+  top: 20%;
+  left: 65%;
+  z-index: 2;
+}
+.circle4Violet {
+  position: absolute;
+  height: 11%;
+  width: 11%;
+  border-radius: 50%;
+  background: #cb382b;
+  top: 60%;
+  left: 65%;
+  z-index: 2;
+}
+.circle5Violet {
+  position: absolute;
+  height: 11%;
+  width: 11%;
+  border-radius: 50%;
+  background: #cb382b;
+  top: 35%;
+  left: 6%;
+  z-index: 2;
+}
+.circle6Violet {
+  position: absolute;
+  height: 9%;
+  width: 9%;
+  border-radius: 50%;
+  background: #cb382b;
+  top: 75%;
+  left: 15%;
+  z-index: 2;
+}
+.circle7Violet {
+  position: absolute;
+  height: 11%;
+  width: 11%;
+  border-radius: 50%;
+  background: #cb382b;
+  top: 85%;
+  left: 40%;
+  z-index: 2;
+}
+.tube1Violet {
+  position: absolute;
+  height: 10%;
+  width: 25%;
+  top: 30%;
+  left: 15%;
+  background: #dd4843;
+  border-radius: 50px;
+  z-index: -1;
+}
+.tube2Violet {
+  position: absolute;
+  height: 10%;
+  width: 20%;
+  top: 43%;
+  left: 20%;
+  background: #e57c39;
+  border-radius: 50px;
+  z-index: -1;
+}
+.tube3Violet {
+  position: absolute;
+  height: 10%;
+  width: 50%;
+  top: 55%;
+  left: 10%;
+  background: #eebf45;
+  border-radius: 50px;
+  z-index: -1;
+}
+.tube4Violet {
+  position: absolute;
+  height: 10%;
+  width: 40%;
+  top: 29%;
+  right: 10%;
+  background: #eebf45;
+  border-radius: 50px;
+  z-index: -1;
+}
+.tube5Violet {
+  position: absolute;
+  height: 10%;
+  width: 50%;
+  top: 45%;
+  right: 10%;
+  background: #e57c39;
+  border-radius: 50px;
+  z-index: -1;
+}
+.tube6Violet {
+  position: absolute;
+  height: 10%;
+  width: 35%;
+  top: 58%;
+  right: 15%;
+  background: #dd4b37;
+  border-radius: 50px;
+  z-index: -1;
+}
+.flagViolet {
+  position: absolute;
+  background: #dd4b37;
+  top: 2%;
+  width: 10%;
+  height: 10%;
+  left: 52%;
+}
+.poleViolet {
+    position: absolute;
+    height: 200%;
+    width: 25%;
+    background: #5C4126;
+    bottom: -200%;
+    left: 0%;
+}
