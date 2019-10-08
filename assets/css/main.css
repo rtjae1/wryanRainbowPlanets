@@ -18,7 +18,7 @@ body {
 .planetRed {
   position: absolute;
   border-radius: 50%;
-  background: #dd4837;
+  background: rgb(255, 0, 24);
   height: 55%;
   width: 48%;
   top: 20%;
@@ -28,7 +28,7 @@ body {
   position: absolute;
   height: 100%;
   width: 100%;
-  background: #dd4837;
+  background: rgb(255, 0, 24);
   border-radius: 50%;
   z-index: 1;
 }
@@ -182,18 +182,18 @@ body {
   left: 52%;
 }
 .poleRed {
-    position: absolute;
-    height: 200%;
-    width: 25%;
-    background: #5C4126;
-    bottom: -200%;
-    left: 0%;
+  position: absolute;
+  height: 200%;
+  width: 25%;
+  background: #5c4126;
+  bottom: -200%;
+  left: 0%;
 }
 /* orange */
 .planetOrange {
   position: absolute;
   border-radius: 50%;
-  background: #FFA52C;
+  background: rgb(255, 165, 44);
   height: 55%;
   width: 48%;
   top: 20%;
@@ -203,7 +203,7 @@ body {
   position: absolute;
   height: 100%;
   width: 100%;
-  background: #FFA52C;
+  background: rgb(255, 165, 44);
   border-radius: 50%;
   z-index: 1;
 }
@@ -357,18 +357,18 @@ body {
   left: 52%;
 }
 .poleOrange {
-    position: absolute;
-    height: 200%;
-    width: 25%;
-    background: #5C4126;
-    bottom: -200%;
-    left: 0%;
+  position: absolute;
+  height: 200%;
+  width: 25%;
+  background: #5c4126;
+  bottom: -200%;
+  left: 0%;
 }
 /* yellow */
 .planetYellow {
   position: absolute;
   border-radius: 50%;
-  background: #FFFF41;
+  background: rgb(255, 255, 65);
   height: 55%;
   width: 48%;
   top: 20%;
@@ -378,7 +378,7 @@ body {
   position: absolute;
   height: 100%;
   width: 100%;
-  background: #FFFF41;
+  background: rgb(255, 255, 65);
   border-radius: 50%;
   z-index: 1;
 }
@@ -533,18 +533,18 @@ body {
   left: 52%;
 }
 .poleYellow {
-    position: absolute;
-    height: 200%;
-    width: 25%;
-    background: #5C4126;
-    bottom: -200%;
-    left: 0%;
+  position: absolute;
+  height: 200%;
+  width: 25%;
+  background: #5c4126;
+  bottom: -200%;
+  left: 0%;
 }
 /* green */
 .planetGreen {
   position: absolute;
   border-radius: 50%;
-  background: #008018;
+  background: rgb(0, 128, 24);
   height: 55%;
   width: 48%;
   top: 20%;
@@ -554,7 +554,7 @@ body {
   position: absolute;
   height: 100%;
   width: 100%;
-  background: #008018;
+  background: rgb(0, 128, 24);
   border-radius: 50%;
   z-index: 1;
 }
@@ -708,18 +708,18 @@ body {
   left: 52%;
 }
 .poleGreen {
-    position: absolute;
-    height: 200%;
-    width: 25%;
-    background: #5C4126;
-    bottom: -200%;
-    left: 0%;
+  position: absolute;
+  height: 200%;
+  width: 25%;
+  background: #5c4126;
+  bottom: -200%;
+  left: 0%;
 }
 /* blue */
 .planetBlue {
   position: absolute;
   border-radius: 50%;
-  background: #0000F9;
+  background: rgb(0, 0, 249);
   height: 55%;
   width: 48%;
   top: 20%;
@@ -729,7 +729,7 @@ body {
   position: absolute;
   height: 100%;
   width: 100%;
-  background: #0000F9;
+  background: rgb(0, 0, 249);
   border-radius: 50%;
   z-index: 1;
 }
@@ -883,18 +883,18 @@ body {
   left: 52%;
 }
 .poleBlue {
-    position: absolute;
-    height: 200%;
-    width: 25%;
-    background: #5C4126;
-    bottom: -200%;
-    left: 0%;
+  position: absolute;
+  height: 200%;
+  width: 25%;
+  background: #5c4126;
+  bottom: -200%;
+  left: 0%;
 }
 /* violet */
 .planetViolet {
   position: absolute;
   border-radius: 50%;
-  background: #86007D;
+  background: rgb(134, 0, 125);
   height: 55%;
   width: 48%;
   top: 20%;
@@ -904,7 +904,7 @@ body {
   position: absolute;
   height: 100%;
   width: 100%;
-  background: #86007D;
+  background: rgb(134, 0, 125);
   border-radius: 50%;
   z-index: 1;
 }
@@ -1058,10 +1058,10 @@ body {
   left: 52%;
 }
 .poleViolet {
-    position: absolute;
-    height: 200%;
-    width: 25%;
-    background: #5C4126;
-    bottom: -200%;
-    left: 0%;
+  position: absolute;
+  height: 200%;
+  width: 25%;
+  background: #5c4126;
+  bottom: -200%;
+  left: 0%;
 }
